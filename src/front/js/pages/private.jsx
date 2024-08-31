@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 
 import { Context } from "../store/appContext";
 
-import secretImage from "/workspaces/Autenticacion-YussefMerhi/src/front/img/KeepMeSecret.jpg"
+import secretImage from "../../img/KeepMeSecret.jpg"
 
 export const Private = () => {
     const { store, actions } = useContext(Context);
